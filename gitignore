@@ -1,0 +1,49 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# Conda leftovers
+*.conda
+*.lock
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Project outputs ----
+# ROI + logs
+roi_chat.json
+chat_alertas_local.txt
+chat_alertas_local.csv
+
+# Annotated videos & media
+chat_guard_local_annotated.mp4
+*.mp4
+*.avi
+*.mkv
+
+# Snapshots
+hits/
+
+# Misc data dumps
+*.csv
+*.tsv
+*.parquet
+
+# ---- Node (if any web UI later) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
