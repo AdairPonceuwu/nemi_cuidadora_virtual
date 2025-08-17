@@ -1,7 +1,9 @@
-# Nemi
+<img width="1088" height="739" alt="image" src="https://github.com/user-attachments/assets/5bbcbc92-047e-4747-b749-d4b129568b0a" /># Nemi
 
 Detección en vivo de frases peligrosas en el **chat de Roblox** con OCR local (RapidOCR/ONNXRuntime).  
 Funciona **offline**, anota el video, genera **alertas**, guarda **CSV**, **snapshots** y (opcional) **notificaciones de Windows**.
+<img width="1088" height="739" alt="image" src="https://github.com/user-attachments/assets/e28010a2-7ef2-4b69-962f-f1d25c3274a7" />
+
 
 ---
 
@@ -106,7 +108,7 @@ python nemi.py --video partida_roblox.mp4   --preview --preprocess light --scale
 
 ### Más robusto (HUD translúcido / texto pequeño)
 ```bash
-python nemi.py --video partida_roblox.mp4 --preview   --preprocess strong --invert --scale 2.0 --gamma 1.2   --passes 2 --history 3 --min_conf 0.55 --fuzzy 0.80
+ python roblox_chat_guard_local_rapidocr.py --video partida_roblox.mp4 --preview --preprocess light --scale 1.2 --gamma 1.1 --passes 1 --history 2 --fuzzy 0.83
 ```
 
 ### Frases personalizadas
