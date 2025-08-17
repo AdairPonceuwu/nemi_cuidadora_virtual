@@ -1,7 +1,25 @@
 # 🤖 Nemi
+> Participación en **HackPuebla**
 
-Nemi busca ser un cuidador virtual que ayude a los padres a cuidar a sus hijos dentro de ciertas aplicaciones, es por eso que en este repositorio simulamos como Nemi realizará la detección en vivo de frases peligrosas en el **chat de Roblox** con OCR local (RapidOCR/ONNXRuntime).  
-Funciona **offline**, anota el video, genera **alertas**, guarda **CSV**, **snapshots** y (opcional) **notificaciones de Windows**.
+> **Contexto del hackatón · Proyecto Nemi**  
+> Este repositorio forma parte de un prototipo desarrollado durante el hackatón **HackPuebla**.  
+> **Nemi** busca ser un **cuidador virtual** que ayude a madres y padres a proteger a sus hijas e hijos dentro de ciertas aplicaciones y juegos.  
+> Aquí simulamos una de sus funciones: la **detección en vivo** de frases peligrosas en el **chat de Roblox** usando **OCR local (RapidOCR/ONNXRuntime)**.  
+> Funciona **offline**, anota el video, genera **alertas**, guarda **CSV**, **snapshots** y (opcional) **notificaciones de Windows**.  
+> Esta es **solo una de las capacidades** de Nemi: el roadmap incluye integraciones con **IA** para moderación semántica, panel para familias y más (ver abajo).
+
+
+---
+
+## 🗺️ Roadmap (próximas integraciones de Nemi)
+
+- **IA (LLM) para moderación semántica**: detección de grooming, acoso, amenazas y doble sentido; traducción de jerga y emojis; explicaciones amigables para familias.
+- **Extensión de navegador / captura en tiempo real**: soporte para juegos y apps web, con OCR directo sobre pantalla.
+- **Panel para familias**: historial, configuración de sensibilidad, listas de confianza/bloqueo, reporte semanal.
+- **Alertas multiplataforma**: notificaciones push, correo, y mensajería donde las políticas lo permitan.
+- **Modo “live” y “offline”**: monitoreo en vivo y análisis posterior (replay) con auditoría.
+- **Multimodal**: análisis de imágenes y clips para detección de contenido visual riesgoso.
+- **Privacidad y seguridad**: procesamiento local por defecto, datos mínimos, anonimización y controles de consentimiento.
 
 
 <img width="1088" height="739" alt="image" src="https://github.com/user-attachments/assets/e28010a2-7ef2-4b69-962f-f1d25c3274a7" />
