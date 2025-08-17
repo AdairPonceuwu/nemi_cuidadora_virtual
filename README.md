@@ -1,4 +1,4 @@
-<img width="1088" height="739" alt="image" src="https://github.com/user-attachments/assets/5bbcbc92-047e-4747-b749-d4b129568b0a" /># Nemi
+# Nemi
 
 Detección en vivo de frases peligrosas en el **chat de Roblox** con OCR local (RapidOCR/ONNXRuntime).  
 Funciona **offline**, anota el video, genera **alertas**, guarda **CSV**, **snapshots** y (opcional) **notificaciones de Windows**.
