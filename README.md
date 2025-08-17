@@ -2,6 +2,8 @@
 
 Nemi busca ser un cuidador virtual que ayude a los padres a cuidar a sus hijos dentro de ciertas aplicaciones, es por eso que en este repositorio simulamos como Nemi realizará la detección en vivo de frases peligrosas en el **chat de Roblox** con OCR local (RapidOCR/ONNXRuntime).  
 Funciona **offline**, anota el video, genera **alertas**, guarda **CSV**, **snapshots** y (opcional) **notificaciones de Windows**.
+
+
 <img width="1088" height="739" alt="image" src="https://github.com/user-attachments/assets/e28010a2-7ef2-4b69-962f-f1d25c3274a7" />
 
 
